@@ -206,9 +206,9 @@
         "body": ["std::cout << ${1:message};"],
         "description": "Code snippet for printing to std::cout, provided the header is set"
     },
-    "endl": {
+    "NL": {
         "prefix": "endl",
-        "body": ["<< std::endl;"],
+        "body": ["std::cout << std::endl;"],
         "description": "Code snippet for appending newline to cout"
     },
     "coutn": {

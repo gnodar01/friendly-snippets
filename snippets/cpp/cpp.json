@@ -212,7 +212,7 @@
         "description": "Code snippet for appending newline to cout"
     },
     "coutn": {
-        "prefix": "endl",
+        "prefix": "coutn",
         "body": ["std::cout << ${1:message} << std::endl;"],
         "description": "Code snippet for printing to std::cout with endl, provided header set"
     },

@@ -206,6 +206,16 @@
         "body": ["std::cout << ${1:message};"],
         "description": "Code snippet for printing to std::cout, provided the header is set"
     },
+    "endl": {
+        "prefix": "endl",
+        "body": ["<< std::endl;"],
+        "description": "Code snippet for appending newline to cout"
+    },
+    "coutn": {
+        "prefix": "endl",
+        "body": ["std::cout << ${1:message} << std::endl;"],
+        "description": "Code snippet for printing to std::cout with endl, provided header set"
+    },
     "cin": {
         "prefix": "cin",
         "body": ["std::cin >> $1;"],
